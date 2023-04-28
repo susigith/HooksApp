@@ -22,19 +22,19 @@ import { router } from './09-useContext/Router';
 import './index.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    {/* <HooksApp />
-    <CounterApp />
-    <CounterWithCustomHook />
-    <SimpleForm />
-    <FormWithCustomHook />
-    <MultipleCustomHooks />
-    <FocusScreen />
-    <Layout />
-    <Memorize />
-    <MemoHook />
-    <CallbackHook />
-    <Padre /> */}
-    <RouterProvider router={router} />
-  </React.StrictMode>
+  // <React.StrictMode>
+  // {/* <HooksApp />
+  // <CounterApp />
+  // <CounterWithCustomHook />
+  // <SimpleForm />
+  // <FormWithCustomHook />
+  // <MultipleCustomHooks />
+  // <FocusScreen />
+  // <Layout />
+  // <Memorize />
+  // <MemoHook />
+  // <CallbackHook />
+  // <Padre /> */}
+  <RouterProvider router={router} />
+  // {/* </React.StrictMode> */}
 );
