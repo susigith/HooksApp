@@ -11,6 +11,7 @@ export const MultipleCustomHooks = () => {
   const { author, quote } = !!data && data[0];
 
   const onSearchQuote = (value) => {
+    //Esta funcion es iniciativa mia, una mejor practica era implementar la funcion en el useCounter() en lugar de modificar la variable de estado en este componente
     setCounter(value);
   };
 
