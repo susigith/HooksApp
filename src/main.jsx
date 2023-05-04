@@ -15,9 +15,11 @@ import ReactDOM from 'react-dom/client';
 // import { Padre } from './07-tarea-memo/Padre';
 // import './08-useReducer/intro-reducer';
 // import { TodoApp } from './08-useReducer/TodoApp';
-import { MainApp } from './09-useContext/MainApp';
-import { RouterProvider } from 'react-router-dom';
-import { router } from './09-useContext/Router';
+// import { MainApp } from './09-useContext/MainApp';
+import { RouterProvider, createBrowserRouter } from 'react-router-dom';
+import { routes } from './09-useContext/routes';
+
+const router = createBrowserRouter(routes);
 
 import './index.css';
 

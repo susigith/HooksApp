@@ -11,7 +11,7 @@ export const Navbar = () => {
         <div className='collapse navbar-collapse' id='navbarNav'>
           <ul className='navbar-nav'>
             <NavLink
-              to='home'
+              to='/'
               className={({ isActive, isPending }) => `nav-link
               ${isActive ? 'active' : isPending ? 'pending' : ''}`}
             >
